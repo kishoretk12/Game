@@ -12,7 +12,7 @@ spec:
       labels:
         app: game
     spec:
-      containers:
+      containers: 
         - name: game
           image: kishoretk12/game:latest # Image that will be used to containers in the cluster
           imagePullPolicy: Always
